@@ -1,0 +1,2 @@
+ugyo0=Squark! Unigayo is a to lip sync your unity game Squark!
+ugyo1=It even supports different mouths for different moods, squark!

@@ -1,0 +1,50 @@
+lipsync version 1.1
+24
+2
+	196800__margo-heston__i-sit-on-the-chair-f
+	..\Assets\SampleProject\Audio\196800__margo-heston__i-sit-on-the-chair-f.wav
+	I sit on the chair
+	1
+		I sit on the chair
+		4
+		57
+		5
+			I 4 8 1
+				4 AI
+			sit 9 27 3
+				9 etc
+				15 AI
+				22 etc
+			on 28 31 2
+				28 AI
+				30 etc
+			the 32 39 2
+				32 etc
+				36 AI
+			chair 40 57 3
+				40 etc
+				46 E
+				52 etc
+	196971__margo-heston__i-see-five-lamps-f
+	..\Assets\SampleProject\Audio\196971__margo-heston__i-see-five-lamps-f.wav
+	I see five lamps
+	1
+		I see five lamps
+		4
+		68
+		4
+			I 4 9 1
+				4 AI
+			see 10 25 2
+				10 etc
+				18 E
+			five 26 49 3
+				26 FV
+				34 AI
+				42 FV
+			lamps 50 68 5
+				50 L
+				54 AI
+				58 MBP
+				61 MBP
+				65 etc

@@ -1,0 +1,37 @@
+## You can add your own words to this user dictionary.
+## For example, some proper nouns will not appear in the standard dictionary.
+## Also strange, "cartoony" words will likely not appear.
+##
+## Each entry must be on its own line in the file. First is the word as normally written.
+## Next, the word is followed by the phonemes used to pronounce it.
+## These must be CMU-style phonemes, not Preston Blair phonemes. The CMU phonemes are more
+## complex, but also more complete. Using CMU phonemes will also allow Papagayo to map them
+## to other phoneme sets in the future.
+##
+## To start with, there is just one sample entry in this dictionary, WOWZA.
+##
+## TIP you can often find a similar word in the standard dictionary to serve as the starting point for you own word
+
+WOWZA  W AW1 Z AH0
+ARTHWIPE AE1 R TH W IH2 P EH0
+ARTHWIPE's AE1 R TH W IH2 P E0 S
+ADVENTURING  AE0 D V EH1 N CH ER0 IH0 NG
+ADVENTURINGS  AE0 D V EH1 N CH ER0 IH0 NG Z
+2  T UW1  
+3  TH R IY1
+10 T EH1 N
+WORTHA  W ER1 TH AH0 
+NAKS  N AE1 K S
+FOOFY  F UW1 F Y
+FOOFY'S  F UW1 F Y S
+SPECIESES  S P IY1 SH IY0 Z E S
+GROOMERY  G R UW1 M EH2 R Y0
+DEARHEART  D IH1 R HH AA1 R T
+DULSWORTH  D AH1 L S W ER1 TH
+DULSWORTH'S  D AH1 L S W ER1 TH S
+TELEGRAMATIC  T EH2 L AH0 G R AH0 M AE1 T IH0 K
+UNKEMPT AH1 N K EH2 M P T
+NNNNNNGGG  N N N N N G
+TYRANNOSAUR  T IH0 R AE0 N AH0 S AO1 R
+ARTEFACTS  AA1 R T AE0 F AE2 K T S
+FOSSIMILISED  
