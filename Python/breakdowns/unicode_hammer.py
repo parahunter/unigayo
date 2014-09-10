@@ -90,6 +90,12 @@ def latin1_to_ascii (unicrap):
             pass
         else:
             r += str(i)
+			
+	# @AlexanderBirke remove characters that breaks word recognition		
+	r = r.replace(".","")
+	r = r.replace("!","")
+	r = r.replace("?","")
+	
     return r
 
 if __name__ == '__main__':

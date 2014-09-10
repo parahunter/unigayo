@@ -10,3 +10,20 @@ KeyError: u''
 Traceback (most recent call last):
   File "LipsyncDoc.pyo", line 70, in RunBreakdown
 KeyError: u''
+Traceback (most recent call last):
+  File "LipsyncDoc.pyo", line 70, in RunBreakdown
+KeyError: u'NLY'
+Traceback (most recent call last):
+  File "LipsyncDoc.pyo", line 70, in RunBreakdown
+KeyError: u'UNPROPERLY'
+Traceback (most recent call last):
+  File "LipsyncDoc.pyo", line 70, in RunBreakdown
+KeyError: u'ROBABLY'
+Traceback (most recent call last):
+  File "LipsyncFrame.pyo", line 567, in OnVoiceName
+  File "wx\_core.pyo", line 12978, in SetString
+wx._core.PyAssertionError: C++ assertion "IsValid(n)" failed at ..\..\src\msw\listbox.cpp(459) in wxListBox::SetString(): invalid index in wxListBox::SetString
+Traceback (most recent call last):
+  File "LipsyncFrame.pyo", line 567, in OnVoiceName
+  File "wx\_core.pyo", line 12978, in SetString
+wx._core.PyAssertionError: C++ assertion "IsValid(n)" failed at ..\..\src\msw\listbox.cpp(459) in wxListBox::SetString(): invalid index in wxListBox::SetString

@@ -731,22 +731,28 @@ class LipsyncFrame(wx.Frame):
 				#line = line.replace(u"“","")
 				#line = line.replace(u"”","")
 				line = hammer(line)
-				line.replace(".","")
-				
+								
 				print line
 								
 				if not "=" in line:
 					continue
+				
+				if "#" in line:
+					line = line.split("#")[1]
 				
 				splitted = line.split("=")
 				
 				name = hammer( splitted[0].strip() )
 				spokenTexts[name] = hammer( splitted[1].strip() )
 		
+		print "creating new doc"
+		
 		if self.doc is None:
 			self.CreateNewDoc()
 		
 		resultDialogue = MultiImportResultDialogue(self)
+		
+		print "after new doc"
 		
 		#next go through audio folder
 		for fileName in os.listdir(audioFolderPath):
@@ -768,19 +774,26 @@ class LipsyncFrame(wx.Frame):
 						self.voiceList.Insert(voice.name, self.voiceList.GetCount())
 					
 					if voiceName in spokenTexts: #is the audio to be found in the list of names we have?
+						print "found it!"
 						if voice.text != spokenTexts[voiceName]: #has what is being said changed?
+							print "and it is unchanged"
+							
 							voice.OpenAudio(absAudioPath)
 							voice.text = spokenTexts[voiceName]
 							voice.RunBreakdown(self, language, self.langman)
 							resultDialogue.Changed_Files_List.Insert(voice.name, 0)
 		
+
 		
 		if len(self.doc.voices) >= 1:
 			self.doc.currentVoice = self.doc.voices[0]
+			print "setting voice"
 			self.SetVoice(self.doc.currentVoice)
+			print "after setting voice"
 			self.waveformView.UpdateDrawing()
 			self.mouthView.DrawMe()
-		
+
+			
 		resultDialogue.ShowModal()
 		resultDialogue.Destroy()
 		
